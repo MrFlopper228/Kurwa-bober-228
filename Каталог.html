@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Каталог</title>
+	<link rel="stylesheet" href="Оформление2.css">
+	<script src="Скрипт.js"></script>
+</head>
+<body>
+	<div id="menu">
+	<a href="Главная_страница.html">Главная страница</a>
+	<a class="active" href="#">Каталог</a>
+	<a href="Корзина.html">Корзина</a>
+	</div>
+	<select id="select" onchange="onSelectChange(event)">
+		<option value="0">Все</option>
+		<option value="1">Куртки</option>
+		<option value="2">Рубашки</option>
+		<option value="3">Штаны</option>
+	</select>
+	<div id="page">	
+        <span id="a0" class="a"><img src="Куртка1.jpg">Куртка мужская<p>Цвет: синий</p><p>Цена: 5999р</p><p><button onclick="cart1()">Добавить в корзину</button></p></span>
+        <span id="a1" class="a"><img src="Куртка2.jpg">Куртка мужская<p>Цвет: зеленый</p><p>Цена: 4999р</p><p><button onclick="cart2()">Добавить в корзину</button></p></span>
+		<span id="a2" class="a"><img src="Рубашка1.jpg">Рубашка мужская<p>Цвет: полосатая</p><p>Цена: 1290р</p><p><button onclick="cart3()">Добавить в корзину</button></p></span>
+		<span id="a3" class="a"><img src="Рубашка2.jpg">Рубашка мужская<p>Цвет: черный</p><p>Цена: 1390р</p><p><button onclick="cart4()">Добавить в корзину</button></p></span>
+		<span id="a4" class="a"><img src="Штаны1.jpg">Штаны мужские<p>Цвет: черный</p><p>Цена: 990р</p><p><button onclick="cart5()">Добавить в корзину</button></p></span>
+		<span id="a5" class="a"><img src="Штаны2.jpg">Штаны мужская<p>Цвет: темно-синий</p><p>Цена: 1190р</p><p><button onclick="cart6()">Добавить в корзину</button></p></span>
+	</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Корзина</title>
+	<link rel="stylesheet" href="Оформление2.css">
+</head>
+<body>
+	<div id="menu">
+	<a href="Главная_страница.html">Главная страница</a>
+	<a href="Каталог.html">Каталог</a>
+	<a class="active" href="#">Корзина</a>
+	</div>
+	<input id="clr" type="button" value="Очистить корзину" onclick="localStorage.clear(); location.reload();">
+    <div id="page1">
+    <span id="txt">Здесь будут отображаться ваши выбранные товары</span>
+    <div id="cloth">
+    </div>
+	</div>
+    <script src="Скрипт1.js"></script>
+</body>
+</html>
